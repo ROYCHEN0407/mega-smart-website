@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smarter Waste Monitoring | MEGA-SMART-INNOVATION</title>
+  <meta name="description" content="Precision waste & liquid tank monitoring using advanced radar sensors. Reduce costs, prevent overflows, and enable smarter routing with MEGA-SMART-INNOVATION.">
+  <style>
+    :root {
+      --primary-color: #2e7d32;
+      --secondary-color: #a5d6a7;
+      --background-color: #f4fef4;
+      --text-color: #2e7d32;
+      --cta-bg: #2e7d32;
+      --cta-text: #fff;
+      --border-radius: 8px;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--background-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+    header {
+      background: var(--primary-color);
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0 0 0.5rem 0;
+      font-size: 2rem;
+    }
+    header p {
+      margin: 0 0 1rem 0;
+      font-size: 1.2rem;
+    }
+    header img {
+      max-width: 100%;
+      height: auto;
+      border-radius: var(--border-radius);
+      margin-top: 1rem;
+    }
+    section {
+      background: #fff;
+      margin: 1rem auto;
+      padding: 2rem 1rem;
+      max-width: 900px;
+      border-radius: var(--border-radius);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    }
+    h2 {
+      color: var(--primary-color);
+      margin-top: 0;
+      font-size: 1.6rem;
+    }
+    p {
+      margin: 1rem 0;
+    }
+    ul {
+      padding-left: 1.2rem;
+      list-style-type: disc;
+    }
+    ul li {
+      margin: 0.5rem 0;
+      display: flex;
+      align-items: center;
+    }
+    img.icon {
+      width: 48px;
+      height: 48px;
+      margin-right: 0.5rem;
+      flex-shrink: 0;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: var(--border-radius);
+      margin: 1rem 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+      font-size: 0.95rem;
+    }
+    th, td {
+      border: 1px solid var(--secondary-color);
+      padding: 0.75rem;
+      text-align: left;
+    }
+    th {
+      background-color: var(--secondary-color);
+      color: var(--primary-color);
+    }
+    .cta, footer {
+      background-color: var(--secondary-color);
+      text-align: center;
+      padding: 1rem;
+      border-radius: var(--border-radius);
+      margin: 1rem auto;
+      max-width: 900px;
+    }
+    .cta a, footer a {
+      color: var(--primary-color);
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .button {
+      display: inline-block;
+      background-color: var(--cta-bg);
+      color: var(--cta-text);
+      padding: 0.75rem 1.25rem;
+      text-decoration: none;
+      border-radius: 4px;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    form input, form textarea, form button {
+      width: 100%;
+      padding: 0.75rem;
+      margin: 0.5rem 0;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+    form button {
+      background-color: var(--cta-bg);
+      color: var(--cta-text);
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    form button:hover {
+      background-color: #27662a;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+      h2 {
+        font-size: 1.4rem;
+      }
+      table, th, td {
+        font-size: 0.85rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Smarter Waste & Liquid Monitoring</h1>
+    <p>Advanced PCR Radar Solutions by MEGA-SMART-INNOVATION</p>
+    <img src="https://source.unsplash.com/1600x400/?green-city,smart" alt="Smart city with green waste management systems">
+  </header>
+
+  <section>
+    <h2>Precision Monitoring for Sustainable Waste Management</h2>
+    <p>Our solution leverages Acconeer's Pulsed Coherent Radar (PCR) technology for millimeter-level accuracy. Enjoy reliable, real-time monitoring of waste bins, liquid tanks, and challenging environments—even corrosive liquids like used cooking oil or kerosene.</p>
+    <img src="https://source.unsplash.com/800x400/?sensor,technology" alt="Installation of radar sensor technology">
+  </section>
+
+  <section>
+    <h2>Our Green Advantage</h2>
+    <ul>
+      <li><img src="https://img.icons8.com/color/96/000000/radar.png" alt="Radar precision icon" class="icon"> 60GHz Pulsed Coherent Radar with mm-level precision</li>
+      <li><img src="https://img.icons8.com/color/96/000000/shield.png" alt="IP69 shield icon" class="icon"> IP69-rated waterproof & dustproof housing</li>
+      <li><img src="https://img.icons8.com/color/96/000000/cloud-checked.png" alt="Cloud dashboard icon" class="icon"> Real-time cloud dashboard & open API</li>
+      <li><img src="https://img.icons8.com/color/96/000000/firmware.png" alt="OTA firmware updates icon" class="icon"> OTA Firmware Updates via LTE/LoRa/BLE</li>
+      <li><img src="https://img.icons8.com/color/96/000000/alert.png" alt="Anti-theft alert icon" class="icon"> Anti-theft detection with fill-rate anomaly alerts</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Why Choose Radar Technology?</h2>
+    <p>Traditional ultrasonic sensors require internal mounting and struggle with environmental challenges. Our radar sensors allow non-invasive, external installation, penetrating plastic walls and sealed lids for accurate readings. Ideal for underground bins, sealed tanks, and sustainable waste management.</p>
+    <img src="https://source.unsplash.com/800x400/?engineering,technology" alt="Non-invasive radar measurement illustration">
+  </section>
+
+  <section>
+    <h2>Advanced Anti-Theft Detection</h2>
+    <p>Senses abnormal drainage rates or unauthorized emptying. Exceed the preset fill-level drop rate? Real-time alerts are instantly triggered. Protect valuable resources like used cooking oil and recyclables with smart security features.</p>
+    <img src="https://source.unsplash.com/800x400/?alert,security" alt="Real-time anti-theft alert system">
+  </section>
+
+  <section>
+    <h2>Comparison Table</h2>
+    <table>
+      <tr><th>Feature</th><th>Ultrasonic</th><th>MEGA-SMART PCR Radar</th></tr>
+      <tr><td>Mounting</td><td>Inside container only</td><td>External through walls/lids</td></tr>
+      <tr><td>Accuracy</td><td>~5-10 cm</td><td>Millimeter-level</td></tr>
+      <tr><td>Environmental Robustness</td><td>Sensitive to dirt/humidity</td><td>IP69 weather/dust proof</td></tr>
+      <tr><td>Anti-Theft Detection</td><td>Limited</td><td>Fill-rate anomaly detection</td></tr>
+      <tr><td>OTA Updates</td><td>Rare</td><td>Fully supported</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Applications</h2>
+    <ul>
+      <li>Municipal Waste Collection</li>
+      <li>Used Cooking Oil & Hazardous Liquid Tanks</li>
+      <li>Underground Bins and Sealed Containers</li>
+      <li>Industrial Waste Sites</li>
+      <li>Commercial Buildings & Complexes</li>
+    </ul>
+    <img src="https://source.unsplash.com/800x400/?waste,bins" alt="Smart city waste bins and collection">
+  </section>
+
+  <section>
+    <h2>Benefits of Our Solution</h2>
+    <ul>
+      <li>20–40% reduction in collection costs</li>
+      <li>Prevents overflows and environmental hazards</li>
+      <li>Reduces unauthorized siphoning/theft</li>
+      <li>Dynamic routing and scheduling optimization</li>
+      <li>Improves service quality and regulatory compliance</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Request a Quote or Demo</h2>
+    <form action="#" method="post">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="text" name="company" placeholder="Company">
+      <textarea name="message" rows="4" placeholder="Tell us about your needs..."></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section class="cta">
+    <p>📧 <a href="mailto:info@mega-smart-innovation.com">info@mega-smart-innovation.com</a> | 🌐 <a href="https://www.mega-smart-innovation.com">www.mega-smart-innovation.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MEGA-SMART-INNOVATION. All rights reserved.</p>
+  </footer>
+</body>
+</html>
